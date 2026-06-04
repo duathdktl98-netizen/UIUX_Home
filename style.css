@@ -1,31 +1,97 @@
-.sct01 {
-    height: 100vh;
-    background-color: #d4d6d5;
+header { 
+    background-color: #FFF;
+    width: 1920px; height: 86px;
+    border: 1px solid #E3E3E3;
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px;
 }
-.sctbox {
-    width: 250px; height: 600px;
-    background-color: #313131;
+nav {
+    display: flex;
+    gap: 32px;
 }
-.sct02 {
-    height: 100vh;
-    background-color: #c2c2c2;
+.nav-box01 {
+    width: 92px; height: 12px;
+    border-radius: 2px;
+    background: #CFCFCF;
 }
-.sct03 {
-    height: 100vh;
-    background-color: #9c9c9c;
+.nav-box02 {
+    width: 112px; height: 12px;
+    border-radius: 2px;
+    background: #CFCFCF;
 }
-.sct04 {
-    height: 100vh;
-    background-color: #6b6b6b;
+.nav-box03 {
+    width: 148px; height: 12px;
+    border-radius: 2px;
+    background: #CFCFCF;
 }
-.sct05 {
-    height: 100vh;
-    background-color: #545454;
+.nav-box04 {
+    width: 72px; height: 12px;
+    border-radius: 2px;
+    background: #CFCFCF;
 }
-.sct06 {
-    height: 100vh;
-    background-color: #242424;
+.nav-box05 {
+    width: 88px; height: 12px;
+    border-radius: 2px;
+    background: #CFCFCF;
+}
+.logo-box {
+    width: 228px; height: 25px;
+    border-radius: 2px;
+    background: #A8A8A8;
+}
+.user-box {
+    display: flex;
+    gap: 32px;
+}
+.ubox01 {
+    width: 68px; height: 12px; 
+    border-radius: 2px;
+    background: #CFCFCF;
+}
+.ubox02 {
+    width: 92px; height: 12px; 
+    border-radius: 2px;
+    background: #CFCFCF;
+}
+.ubox03 {
+    width: 58px; height: 12px; 
+    border-radius: 2px;
+    background: #CFCFCF;
+}
+.ubox04 {
+    width: 84px; height: 12px; 
+    border-radius: 2px;
+    background: #CFCFCF;
+}
+.ubox05 {
+    width: 36px; height: 12px; 
+    border-radius: 2px;
+    background: #CFCFCF;
+}
+main {
+    background-color: #FFF;
+    width: 1920px; height: 2526px;
+    padding: 64px;
+}
+.sct-01{
+    display: flex;
+    gap: 36px;
+}
+.sct01-left {
+    width: 878px; height: 500px;
+    border: 1px solid #E3E3E3;
+    background: #F3F3F3;
+}
+.sct01-right {
+    width: 878px; height: 500px;
+    border: 1px solid #E3E3E3;
+    background: #F3F3F3;
+    flex-grow: 1;
+}
+footer {
+    background-color: #FFF;
+    border: 1px solid #E3E3E3;
+    width: 1920px; height: 68px;
 }

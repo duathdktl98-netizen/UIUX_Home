@@ -1,0 +1,15 @@
+header {
+    border-bottom: 1px solid #E3E3E3;
+    height: 86px;
+}
+main {
+    border-bottom: 1px dashed #E3E3E3;
+    height: 2526px;
+}
+.sct-01 {
+    display: flex;
+}
+.sct-01, .sct-02, .sct-03, .sct-04 {
+    background-color: #cdcaca;
+    border-bottom: 1px solid #000000;
+}

@@ -22,7 +22,63 @@ main {
 }
 .amp-swiper {
     border: 1px solid green;
+    display: flex;
+
 }
+.best-product-list {
+   flex-grow: 1;
+   display: flex; flex-direction: column;
+}
+.best-product-list01 {border: 3px solid red;}
+.best-product-list02 {border: 3px solid #f86b6b;}
+.best-product-list03 {border: 3px solid #f79898;}
+.best-product-list04 {border: 3px solid #f3afaf;}
+
+.best-discount-title {
+    border: 1px solid orange;
+    padding-top: 40px; padding-bottom: 42px;
+}
+.best-discount-subhead {
+    border: 1px solid orange;
+    padding-bottom: 40px;
+}
+.best-price-capacity {
+    border: 1px solid orange;
+    padding-top: 14px; padding-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.best-price {
+    border: 1px solid orange;
+}
+.best-capacity {
+    border: 1px solid orange;
+}
+.best-capacity-30ml {
+    border: 1px solid orange;
+}
+.best-capacity-60ml {
+    border: 1px solid orange;
+}
+.best-pro-btn {
+    border: 1px solid #E1DED9;
+    background: #FFF;
+    flex-grow: 1;
+    padding-top: 12px; padding-bottom: 12px;
+    color: #212529;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px; /* 150% */
+    letter-spacing: 0.06px;
+    
+    /* text-transform: capitalize;
+    font-family: Raleway;
+    font-style: normal; */
+
+    transition: 0.3s;
+}
+
 footer { 
     border: 1px solid red;
 }

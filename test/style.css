@@ -22,11 +22,14 @@ main {
 }
 .amp-swiper {
     border: 1px solid green;
+    /* best-product-list01-04 가로 정렬 */
     display: flex;
 
 }
 .best-product-list {
+   /* best-product-list01-04 같은 값으로 공간 차지 */
    flex-grow: 1;
+   /* 버튼 여백 채우기용*/
    display: flex; flex-direction: column;
 }
 .best-product-list01 {border: 3px solid red;}
@@ -45,6 +48,7 @@ main {
 .best-price-capacity {
     border: 1px solid orange;
     padding-top: 14px; padding-bottom: 24px;
+    /* 가격,용량 가로 정렬 */
     display: flex;
     justify-content: space-between;
 }
@@ -63,6 +67,7 @@ main {
 .best-pro-btn {
     border: 1px solid #E1DED9;
     background: #FFF;
+    /* 버튼 여백 채우기용 */
     flex-grow: 1;
     padding-top: 12px; padding-bottom: 12px;
     color: #212529;

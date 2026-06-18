@@ -5,9 +5,16 @@ h1,h2,h3,h4,h5,h6 {
     font-size: inherit;
     margin: 0;
 }
+/* a : 기본 display -> inlline 
+inline : padding값을 넣었을 때 좌표 고정 상태로 padding 적용 */
+/* 해결방안 : inline이 아닌 다른 속성값으로 변경
+예시) inline-block, block, flex, inline-flex, flex-item, grid */
+/* display: block; -> a태그를 쓸때마다 적용할 수 없으므로 노멀라이즈 파일에 작성 */
 a {
     color: inherit;
     text-decoration: none;
+    /* background-color: pink; */
+    display: block;
 }
 button {
     background-color: transparent;

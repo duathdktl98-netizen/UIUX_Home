@@ -1,0 +1,17 @@
+body {margin: 0; padding: 0;}
+a {
+    /* a태그에서 color: inherit; : html이 가지고 있는 색을 사용한다는 의미 */
+    /* inherit : 상속 */
+    color: inherit;
+    /* 밑줄 삭제 */
+    text-decoration: none;
+}
+button {
+    background-color: transparent;
+    /* padding auto : 기본값 */
+    padding: auto;
+     /* 선 없음  */
+    border: none; 
+    /* 클릭했을 때 두껍게 처리되는 옵션 없앰 */
+    outline: none;
+}

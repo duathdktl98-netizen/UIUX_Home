@@ -1,0 +1,111 @@
+.bestsellers-section {
+    padding: 124px 80px;
+}
+.best-img-box {
+    height: 410px;
+    background-color: #ebebeb;
+}
+.ul-nav {
+    padding-top: 65px; padding-bottom: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-title{
+    color: #333;
+    font-size: 28px;               
+    font-weight: 700;
+    line-height: 33.6px; /* 120% */
+}
+.view-all{
+    color: #333;
+    font-size: 16px; 
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+.amp-swiper {
+    /* best-product-list01-04 가로 정렬 */
+    display: flex; 
+    gap: 40px;
+}
+.best-product-list {
+   /* best-product-list01-04 같은 값으로 공간 차지 */
+   flex-grow: 1;
+   /* 버튼 여백 채우기용*/
+   display: flex; flex-direction: column;
+   /* flex-basis: 0; = width: 0; */
+   flex-basis: 0;
+}
+.best-discount-title {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+/* >(자식 선택자): 부모와 자식관계를 선택하는 선택자 */
+/* a태그마다 모두 클래스를 달 수 없을 때 쓸 수 있는 방식 */
+.best-discount-title > a {
+    padding-top: 40px; padding-bottom: 42px;
+}
+.best-discount-subhead {
+    padding-bottom: 40px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+    border-bottom: 1px solid #E1DED9;
+}
+.best-price-capacity {
+    padding-top: 14px; padding-bottom: 24px;
+    /* 가격,용량 가로 정렬 */
+    display: flex;
+    justify-content: space-between;
+}
+.best-price {
+    color: #222;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px; /* 106.25% */ 
+}
+.best-capacity { 
+    /* span은 기본적으로 inline을 가지고 있기 때문에 2.3언저리 여백을 가지고 있다
+    flex-item으로 만들어서 여백을 없애고 gap을 적용하는 방향이 가장 좋다. */
+    /* inline : 기본적으로 디자인에 적용되면 안되는 여백을 가지고 있다. */
+    display: flex; gap: 16px;
+}
+.best-capacity-30ml {
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px; /* 121.429% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+.best-capacity-60ml {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px; /* 121.429% */
+}
+.best-pro-btn {
+    border: 1px solid #E1DED9;
+    background: #FFF;
+    /* 버튼 여백 채우기용 */
+    flex-grow: 1;
+    padding-top: 12px; padding-bottom: 12px;
+    color: #212529;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px; /* 150% */
+    letter-spacing: 0.06px;
+    
+    /* text-transform: capitalize;
+    font-family: Raleway;
+    font-style: normal; */
+
+    transition: 0.3s;
+}
+.best-pro-btn:hover {
+    background-color: #212529;
+    color: #E1DED9;
+}

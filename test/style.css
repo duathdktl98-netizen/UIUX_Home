@@ -9,6 +9,7 @@
     padding-top: 65px; padding-bottom: 65px;
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid #E1DED9;
 }
 .section-title{
     color: #333;

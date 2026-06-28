@@ -31,7 +31,8 @@
    /* best-product-list01-04 같은 값으로 공간 차지 */
    flex-grow: 1;
    /* 버튼 여백 채우기용*/
-   display: flex; flex-direction: column;
+   display: flex; 
+   flex-direction: column;
    /* flex-basis: 0; = width: 0; */
    flex-basis: 0;
 }

@@ -45,9 +45,8 @@
     line-height: 15px; /* 136.364% */
 }
 .menu02 {
-    background-color: #d8d6d6;
     border-top: 1px solid rgba(0, 0, 0, 0);
-    height: 400px; transition: 0.5s;
+    height: 0; transition: 0.5s;
     position: absolute;
     left: 0; right: 0; top: 100%;
     overflow: hidden;
@@ -59,7 +58,6 @@
     border-top: 1px solid rgba(0, 0, 0, 1);
 }
 .menu02 > .container {
-    border: 1px solid #000;
     width: 1620px;
     display: flex;
 }
@@ -70,7 +68,6 @@
     align-items: center;
 }
 .mn02-img-item {
-    background-color: orange;
     width: 300px; height: 300px;
 }
 .mn02-img-item > a {height: 100%;}
@@ -94,6 +91,27 @@
 }
 .m02-item:hover > a {
     color: blue;
+    text-decoration: underline;
+}
+.m02-item {
+    position: relative;
+}
+.mn03-nav {
+    position: absolute;
+    left: 0; right: 0; top: calc(100% + 20px);
+    justify-content: space-between;
+    display: none;
+}
+.m02-item:hover > .mn03-nav {
+    display: flex;
+}
+.m03-item > a {
+    font-size: 24px; font-weight: 700;
+    color: #565656;
+    transition: 0.3s;
+}
+.m03-item:hover > a {
+    color: #333;
     text-decoration: underline;
 }
 .logo-box {

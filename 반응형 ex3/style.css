@@ -1,0 +1,11 @@
+header {
+    height: 100px;
+    background-color: #333;
+}
+main {
+    height: 100vh;
+}
+footer {
+    height: 500px;
+    background-color: #333;    
+}

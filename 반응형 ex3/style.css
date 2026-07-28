@@ -1,3 +1,8 @@
+/* component */
+.tr-3 {transition: 0.3s}
+.tr-5 {transition: 0.5s}
+.tr-7 {transition: 0.7s}
+
 header {
     height: 100px;
     background-color: #333;

@@ -1,7 +1,11 @@
 /* 0~360일 때 동작 */
 @media screen and (max-width: 320px) {
-        header {
+    header {
         height: 80px;
+        background-color: #bababa;
+    }
+    footer {
+        height: 210px;
         background-color: #bababa;
     }
 }

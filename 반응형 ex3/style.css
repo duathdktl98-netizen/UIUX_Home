@@ -1,16 +1,35 @@
-/* component */
-.tr-3 {transition: 0.3s}
-.tr-5 {transition: 0.5s}
-.tr-7 {transition: 0.7s}
-
+/* Component : 반복적인 코드를 버튼 형식으로 만드는 코드 */
+.tr-3{transition: 0.3s}
+.tr-5{transition: 0.5s}
+.tr-7{transition: 0.7s}
+.container {
+    /* container는 최소 320px을 가지고 최대 1440px까지 유연하게 동작한다 */
+    max-width: 1440px;
+    min-width: 320px;
+    margin-left: auto; margin-right: auto;
+}
 header {
     height: 100px;
     background-color: #333;
 }
 main {
-    height: 100vh;
+    min-height: 100vh;
+}
+.s1-cd3 {
+    background-color: aliceblue;
+    padding-top: 100px; padding-bottom: 100px;
+}
+.s1-cd3-con {
+    display: flex;
+    gap: 40px;
+}
+.cd3-in {
+    background-color: #333;
+    height: 500px; 
+    flex-grow: 1;
+    flex-basis: 0;
 }
 footer {
     height: 500px;
-    background-color: #333;    
+    background-color: #333;
 }

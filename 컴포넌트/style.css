@@ -1,0 +1,45 @@
+.btn {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+padding: 10px 20px;
+border-radius: 6px;
+font-weight: 600;
+border: none;
+cursor: pointer;
+transition: 0.3s;
+}
+
+/* 2. 상태/변형(Modifier) 클래스 */
+.btn-primary { background-color: #2563eb; color: #ffffff; }
+.btn-primary:hover { background-color: #1d4ed8; }
+.btn-outline { background-color: transparent; border: 1px solid #cbd5e1; color: #334155; }
+.btn-outline:hover { background-color: #f8fafc; }
+
+/* 카드 전체 틀 컴포넌트 */
+.card-item {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* 카드 내부 구성 요소를 위한 클래스 */
+.card-thumb { width: 100%; border-radius: 8px; }
+.card-title { font-size: 18px; margin: 12px 0 8px; color: #111827; }
+.card-desc  { font-size: 14px; color: #6b7280; line-height: 1.5; }
+
+/* 중앙 정렬 Flex 컴포넌트 */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 양옆 정렬 Flex 컴포넌트 */
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

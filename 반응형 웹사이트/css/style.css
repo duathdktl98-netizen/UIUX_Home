@@ -1,0 +1,6 @@
+body {height: 30px;}
+.notice-bar { 
+    border: 1px solid red;
+    background-color: var(--main);
+    height: 4vh; min-height: 3vh;
+}

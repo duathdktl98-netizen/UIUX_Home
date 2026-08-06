@@ -1,0 +1,23 @@
+:root {
+    --color-background-tertiary: #faf9f5;
+    --color-background-dark-info: #253e5f;
+    --color-background-success: #1B4614; 
+    --color-background-dark-warning: #5a4815;
+    --color-background-light-info: #D6E4F6;
+    --color-background-light-warning: #F6EEDF;
+}
+
+/* STEP 01 · 공통 기반 + 상단 안내 바 + 헤더 */
+:root {
+  --main: var(--color-background-dark-info);
+  --blue-dark: #2441e6;
+  --ink: #333;
+  --muted: #6f7178;
+  --line: #e3e4e8;
+  --soft-blue: #eef5ff;
+  --soft-gray: #f7f7f7;
+  --container: 80rem;
+  --radius-sm: .625rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+}

@@ -15,6 +15,7 @@
     --font-text-size22: 22px;
     --font-text-size24: 24px;
     --font-text-size26: 26px;
+    --font-text-size40: 40px;
 
     /* --font-text-sz-rem: 1rem;
     --font-text-sz-rem: 1.1rem;
@@ -28,6 +29,7 @@
     --font-weight600: 600;
     --font-weight700: 700;
     --font-weight800: 800;
+    --font-weight900: 900;
 
     --color-wh: #fff;
     --color-def: #333;
@@ -56,11 +58,18 @@
   --text-medium: var(--font-text-size20);
   --text-large: var(--font-text-size26);
 
+  /* 지역 글자 사이즈 */
+  --text-logo: var(--font-text-size40);
+
   /* 글자 두께 */
   --textW-XS: var(--font-weight300);
   --textW-small: var(--font-weight500);
   --textW-medium: var(--font-weight600);
   --textW-large: var(--font-weight700);
+
+  /* 지역 글자 두께 */
+  --textW-logo: var(--font-weight900);
+
 
   /* 글자 색상 */
   --color-default-light: var(--color-wh);
@@ -139,6 +148,19 @@
   font-size: var(--icon-FS-small);
   font-weight: var(--icon-W-XS);
 }
+
+/*---일반 컴포넌트---*/
+/* 전역 */
+button {cursor: pointer;}
+
+/* header */
+.logo {
+  font-size: var(--text-logo);
+  font-weight: var(--textW-logo);
+  color: var(--main);
+  letter-spacing: -4%;
+}
+
 
 /* ---이벤트--- */
 /* header */

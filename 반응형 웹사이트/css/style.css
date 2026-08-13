@@ -1,6 +1,5 @@
 body {height: 30px;}
 .notice-bar { 
-    border: 1px solid red;
     background-color: var(--main);
     height: 4vh; min-height: 3vh;
     display: flex; justify-content: center;
@@ -10,25 +9,20 @@ header {
     height: 12vh;
     border-bottom: 1px solid var(--main);
     display: flex; justify-content: space-between;
+    padding-left: var(--padding-grid-large);
+    padding-right: var(--padding-grid-large);
 }
 .logo-box {
-    border: 1px solid red;
     align-self: center;
 }
 .user-box {
-    border: 1px solid red;
     display: flex;
 }
-.menu1 {
-    border: 1px solid red;
-}
 .menu1  ul {
-    border: 1px solid red;
     display: flex; height: 100%;
     gap: var(--num40);
 }
 .menu1  li {
-    border: 1px solid red;
     display: flex; align-items: center;
     position: relative;
 }
@@ -46,7 +40,6 @@ header {
     font-weight: var(--textW-large);
 }
 .user-menu-box {
-    border: 1px solid red;
     align-self: center;
     display: flex;
 }

@@ -1,0 +1,12 @@
+/* 0~1080 */
+@media screen and (max-width: 1080px) {
+    header {
+        /* min-width: ; */
+        max-width: var(--GW-S);
+        padding-left: var(--padding-grid-medium);
+        padding-right: var(--padding-grid-medium);
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

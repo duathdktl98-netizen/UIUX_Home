@@ -9,7 +9,7 @@
         display: none;
     }
     .user-box-1240 {
-        display: block;
+        display: flex;
     }
 }
 
@@ -23,6 +23,5 @@
         max-width: var(--GW-S);
         padding-left: var(--padding-grid-medium);
         padding-right: var(--padding-grid-medium);
-        background-color: yellow;
     }
 }
